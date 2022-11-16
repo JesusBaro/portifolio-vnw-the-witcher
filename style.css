@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    width: 100%;
+    height: 7rem;
+    background-color: rgb(0, 0, 0);
+    text-transform: uppercase;
+  }
+  .SpanImg {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    position: relative;
+    width: 20rem;
+    height: 96px;
+    left: 5rem;
+  }
+  .HeaderProjeto {
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    position: relative;
+    left: 1.3rem;
+  }
+  .HeaderNav {
+    display: flex;
+    align-items: center;
+    /* justify-content: flex-end; */
+    position: relative;
+    left: 9rem;
+    color: white;
+  }
+  .HeaderList {
+    display: inline-block;
+    /* align-items: flex-end; */
+    justify-content: flex-end;
+    position: relative;
+    left: 9rem;
+    padding-left: 3rem;
+  }
+  
+  /* fogo no body */
+  body {
+    background-image: url("assets/the-hell-back.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90vh;
+  }
+  /* boneco na section */
+  .MainImg {
+    background-image: url("assets/perso-kavil2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .DivLogoImg {
+    background-image: url("assets/the-witcher-logo-meio.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 3rem;
+  }
+  /* logo na div */
+  .LogoMain {
+    align-items: center;
+    position: relative;
+    top: 2rem;
+    width: 350px;
+    height: 150px;
+  }
+  /* nao sei como tirar a borda do botão */
+  .buttom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 10rem;
+  }
+  
